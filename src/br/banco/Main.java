@@ -11,8 +11,6 @@ public class Main {
 
         Conta contaCC = new ContaCorrente(cliente1);
         Conta contaPP = new ContaPoupanca(cliente1);
-
-//        Testando todas as funçoes
         contaCC.depositar(50);
         contaCC.sacar(25);
         contaCC.transferir(10, contaPP);
