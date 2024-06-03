@@ -13,9 +13,9 @@ public class Main {
         Conta contaPP = new ContaPoupanca(cliente1);
 
 //        Testando todas as funçoes
-        contaCC.depositar(100);
+        contaCC.depositar(50);
         contaCC.sacar(25);
-        contaCC.transferir(50, contaPP);
+        contaCC.transferir(10, contaPP);
 
         contaCC.imprimirExtrato();
         contaPP.imprimirExtrato();
